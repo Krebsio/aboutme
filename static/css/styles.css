@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;  
+    background-color: rgb(161, 86, 143);
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul{
+    display: flex;
+    gap: 42px;
+    list-style: none;
+    padding: 0;
+}
+
+.logo-container{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo-text a { 
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}

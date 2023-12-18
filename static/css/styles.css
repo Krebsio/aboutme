@@ -7,31 +7,39 @@
     scroll-behavior: smooth;
 }
 
-.header {
-    display: flex;  
-    background-color: rgb(161, 86, 143);
-    border-bottom: 1px solid black;
-    justify-content: space-between;
+body {
+    background-color: rgba(195, 255, 187, 0.274);
 }
 
-.links {
-    display: flex;
-    justify-content: center;
+.header {
+    display: flex;  
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(116, 115, 115);
+    justify-content: flex-start;
+    padding: 12px 50px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2% ;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .links ul{
+    margin: 0px;
+    padding: 0;
     display: flex;
     gap: 42px;
     list-style: none;
-    padding: 0;
+    align-items: center;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .logo-container{
     display: flex;
-    gap: 12px;
-    padding: 12px;
+    gap: 18px;
     align-items: center;
+    margin-right: auto;
 }
 
 .logo-text a { 
@@ -39,4 +47,29 @@
     font-size: 50px;
     text-decoration: none;
     color: black;
+}
+
+
+/*------------------- End Header ------------------*/
+
+
+/*------------------- Inicio Content  ------------------*/
+
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 12px;
+    padding: 32px;
+}
+
+aside {
+    flex: 1;
+    border: solid black 1px;
+}
+
+main {
+    flex: 3;
+    border: solid black 1px;
 }

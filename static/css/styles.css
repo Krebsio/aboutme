@@ -17,7 +17,21 @@
   box-sizing: border-box;
 }
 
-.logo {
+.header.seiri {
+  background-color:black;
+  border-bottom: 2px solid rgb(175, 157, 157);
+}
+
+.header.seiri a {
+  color: white;
+  font-weight: 900;
+}
+
+.header.seiri .logo {
+  filter: invert();
+}
+
+.logo.krebs{
   filter: invert() drop-shadow(3px 3px 5px rgb(63, 156, 156));
 }
 

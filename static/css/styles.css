@@ -79,6 +79,9 @@
 .hero .hero-image img {
   border-radius: 50%;
   object-fit: cover;
+  flex: 1 1 auto;
+  max-width: 400px;
+  height: 400px;
 }
 
 .hero-text {
@@ -92,14 +95,14 @@
 
 .info-head {
     text-align: center;
-    padding: 50px;
+    padding: 18px;
 }
 
 .information {
   display: flex;
   justify-content: center;
   gap: 45px;
-  padding: 120px 0;
+  padding: 18px;
   flex-wrap: wrap;
 }
 

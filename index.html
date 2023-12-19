@@ -17,25 +17,25 @@
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito:wght@300;700&display=swap"
-        rel="stylesheet">
 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito:wght@300;700&family=Rubik+Doodle+Shadow&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Roboto:wght@100;300;700;900&family=Signika+Negative:wght@300;500&display=swap"
+        rel="stylesheet">
+
+
     <!--CSS PERSONALIZADO-->
     <link rel="stylesheet" href="static/css/styles.css">
 
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="logo-container">
             <div class="logo">
-                <img src="static/img/cat.png" width="60px" height="auto" alt="Krebs">
+                <img src="static/img/cat.png" width="32px" height="auto" alt="Krebs">
             </div>
             <div class="logo-text">
                 <a href="#">Krebs</a>
@@ -44,21 +44,52 @@
 
         <div class="links">
             <ul>
-                <li>About</li>
-                <li>Skills</li>
+                <li><a href="">About</a></li>
+                <li><a href="">Skills</a></li>
             </ul>
-        </div>  
-    </div>
+        </div>
+    </header>
 
-    <div class="content">
-        <aside>
-            Prueba
+    <main class="content">
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Hola, soy Salvador</h1>
+                <p>un apasionado desarrollador web con experiencia en la creación de soluciones digitales poderosas.
+                    Desde la administración de servidores Linux hasta el desarrollo full stack, estoy aquí para impulsar
+                    tu visión y convertirla en realidad.</p>
+                <button>Contáctame</button>
+            </div>
+            <div class="hero-image"><img width="400px" height="400px" src="static/img/yo.jpg" alt="Krebs"></div>
+        </div>
+            
+            <div class="info-head"><h2>Algunas de mis Herramientas</h2></div>
+        <div class="information">
+            <img width="200px" height="auto" src="static/img/stack.jpg" alt="Full stack">
+            <img width="200px" height="auto" src="static/img/git.png" alt="Git">
+            <img width="200px" height="auto" src="static/img/linux-logo.png" alt="Linux">
+            <img width="200px" height="auto" src="static/img/MYSQL.png" alt="MySQL">
+        </div>
+        <div class="motivation">
+            <p class="quote"><em>"Si haces únicamente lo que puedes hacer, entonces serás más de lo que eres ahora."</em>
+            </p>
+            <p class="author">-Maestro Shifu</p>
+        </div>
 
-        </aside>
-        <main>
-
-        </main>
-    </div>
+        <div class="callToActionContainer">
+            <div class="callToAction">
+                <div class="signUpText">
+                    <h2>Contáctame</h2>
+                    <p>Pregunta por soluciones a tu medida</p>
+                </div>
+                <div class="signUpButton">
+                    <button>Contáctame</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyrigh © Krebs & The Odin Project</p>
+        </footer>
+    </main>
 </body>
 
 </html>

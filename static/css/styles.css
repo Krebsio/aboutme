@@ -218,8 +218,8 @@ body {
   padding-right: 8%;
 }
 
-.aside-links {
-  list-style: circle;
+.content-container-seiri aside ul {
+  line-height: 25px;
 }
 
 .aside-contacto ul{
@@ -228,10 +228,10 @@ body {
   padding: 0;
   margin: 12px 0;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.icon {
+.aside-contacto .icon {
   font-size: 28px;
 }
 
@@ -245,7 +245,9 @@ body {
   color:#3e86ec;
 }
 
-.content-container-seiri {
+.content-container-seiri main {
+  flex: 4;
+  height: 100vh;
   overflow: scroll;
 }
 

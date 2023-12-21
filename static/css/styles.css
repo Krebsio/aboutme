@@ -19,12 +19,7 @@
 
 .header.seiri {
   background-color:black;
-  border-bottom: 2px solid rgb(175, 157, 157);
-}
-
-.header.seiri a {
   color: white;
-  font-weight: 900;
 }
 
 .header.seiri .logo {
@@ -73,7 +68,7 @@
 
 /*------------------- Inicio Content  ------------------*/
 
-.hero {
+.hero-krebs {
   display: flex;
   background-color: #1f2937;
   color: #f9faf8;
@@ -83,7 +78,7 @@
   padding: 32px;
 }
 
-.hero button {
+.hero-krebs button {
   padding: 6px;
   border-radius: 12px;
   background-color: #3882f6;
@@ -92,7 +87,7 @@
   font-weight: bold;
 }
 
-.hero .hero-image img {
+.hero-krebs-image img {
   border-radius: 50%;
   object-fit: cover;
   flex: 1 1 auto;
@@ -101,7 +96,7 @@
   filter: drop-shadow(5px 5px 100px rgb(63, 156, 156));
 }
 
-.hero-text {
+.hero-krebs-text {
   width: 400px;
 }
 
@@ -184,3 +179,107 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+/* -------------- CONTENT SEIRI -----------*/
+body {
+  scroll-behavior: smooth;
+}
+
+.hero-seiri {
+  background-color: black;
+  color: white;
+  font-size: 2.5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 0;
+}
+
+.hero-seiri-text p{
+  margin: 0 auto;
+  width: 40vw;
+}
+
+.hero-seiri-img img{
+  width: 40vw;
+  border-radius: 10px;
+}
+
+.content-container-seiri {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.content-container-seiri aside {
+  flex: 1;
+  padding-right: 8%;
+}
+
+.aside-links {
+  list-style: circle;
+}
+
+.aside-contacto ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.content-container-seiri a {
+  text-decoration: none;
+  color:#1f2937;
+}
+
+.content-container-seiri a:hover {
+  text-decoration: none;
+  color:#3e86ec;
+}
+
+.content-container-seiri {
+  overflow: scroll;
+}
+
+.card  {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 24px 12px;
+  border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.card-reverse  {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 24px 12px;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  justify-content: center;
+
+}
+
+.card a, .card-reverse a {
+  color: #3882f6;
+  font-weight: 900;
+} 
+
+.card-text {
+  flex: 1;
+}
+
+.card-img {
+  flex: 1 2 50px;
+}
+

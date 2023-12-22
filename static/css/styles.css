@@ -299,13 +299,14 @@ body {
   display: flex;
   background-color: black;
   justify-content: flex-start;
-  padding: 8px 30px;
+  padding: 8px 60px;
   color: white;
 }
 
 .links-footer {
   margin-left: auto;
   display: flex;
+  gap: 40px;
 }
 
 .links-footer ul {

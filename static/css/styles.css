@@ -218,8 +218,16 @@ body {
   padding-right: 8%;
 }
 
-.content-container-seiri aside ul {
-  line-height: 25px;
+.content-container-seiri aside ul li{
+  padding: 8px;
+}
+
+.aside-links {
+  padding: 24px ;
+}
+
+.aside-contacto {
+  border-top: solid black 1px;
 }
 
 .aside-contacto ul{
@@ -229,7 +237,7 @@ body {
   margin: 12px 0;
   align-items: center;
   justify-content: center;
-  gap: 12px
+  gap: 12px;
 }
 
 .aside-contacto .icon {
@@ -258,6 +266,7 @@ body {
   gap: 12px;
   flex-wrap: wrap;
   padding: 24px 12px;
+  justify-content: center;
   border-bottom: 1px solid rgb(163, 163, 163);
 }
 
@@ -286,3 +295,24 @@ body {
   flex: 1 2 50px;
 }
 
+.footer-seiri {
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+  padding: 8px 30px;
+  color: white;
+}
+
+.links-footer {
+  margin-left: auto;
+  display: flex;
+}
+
+.links-footer ul {
+  list-style: none;
+  line-height: 30px;
+}
+
+.img-footer {
+  filter: invert() drop-shadow(2px 2px 5px rgb(238, 243, 239));
+}

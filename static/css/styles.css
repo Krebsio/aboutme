@@ -211,19 +211,20 @@ body {
   max-width: 80%;
   margin: 0 auto;
   padding-top: 20px;
+  gap: 5px;
 }
 
 .content-container-seiri aside {
   flex: 1;
-  padding-right: 8%;
 }
 
+
 .content-container-seiri aside ul li{
-  padding: 8px;
+  padding: 8px 0;
 }
 
 .aside-links {
-  padding: 24px ;
+  padding: 24px 0 ;
 }
 
 .aside-contacto {
@@ -255,7 +256,6 @@ body {
 }
 
 .content-container-seiri main {
-  flex: 4;
   height: 100vh;
   overflow: scroll;
 }
@@ -265,7 +265,7 @@ body {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-  padding: 24px 12px;
+  padding: 12px 0;
   justify-content: center;
   border-bottom: 1px solid rgb(163, 163, 163);
 }
@@ -276,7 +276,7 @@ body {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-  padding: 24px 12px;
+  padding: 12px 0;
   border-bottom: 1px solid rgb(163, 163, 163);
   justify-content: center;
 
@@ -299,7 +299,7 @@ body {
   display: flex;
   background-color: black;
   justify-content: flex-start;
-  padding: 8px 60px;
+  padding: 8px 20px;
   color: white;
 }
 

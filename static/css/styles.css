@@ -211,11 +211,18 @@ body {
   max-width: 80%;
   margin: 0 auto;
   padding-top: 20px;
-  gap: 5px;
+  gap: 6px;
+  overflow: hidden;
 }
 
 .content-container-seiri aside {
   flex: 1;
+  border-radius: 10px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 3px 3px #1f2937;
+  height: 500px;
+  padding: 5px;
 }
 
 
@@ -223,22 +230,14 @@ body {
   padding: 8px 0;
 }
 
-.aside-links {
-  padding: 12px 0 ;
-}
-
-.aside-contacto {
-  border-top: solid black 1px;
-}
-
 .aside-contacto ul{
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 12px 0;
   align-items: center;
+  padding-top: 8px;
   justify-content: center;
   gap: 12px;
+  font-size: 12px;
 }
 
 .aside-contacto .icon {
@@ -270,6 +269,15 @@ body {
   border-bottom: 1px solid rgb(163, 163, 163);
 }
 
+.card-img {
+  flex: 1 1 100px;
+}
+
+.card-text {
+  flex: 1;
+}
+
+
 .card-reverse  {
   display: flex;
   flex-direction: row-reverse;
@@ -278,7 +286,7 @@ body {
   flex-wrap: wrap;
   padding: 12px 0;
   border-bottom: 1px solid rgb(163, 163, 163);
-  justify-content: center;
+  justify-content: flex-end;
 
 }
 
@@ -286,14 +294,6 @@ body {
   color: #3882f6;
   font-weight: 900;
 } 
-
-.card-text {
-  flex: 1;
-}
-
-.card-img {
-  flex: 1 2 50px;
-}
 
 .footer-seiri {
   display: flex;
@@ -317,3 +317,23 @@ body {
 .img-footer {
   filter: invert() drop-shadow(2px 2px 5px rgb(238, 243, 239));
 }
+
+/***** SERIRI NETWORK *****/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** End NETWORK *****/
+
